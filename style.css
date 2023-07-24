@@ -11,6 +11,19 @@ html {
   scroll-behavior: smooth;
 }
 
+.project {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden; 
+}
+.project img {
+  max-width: 100%; 
+  max-height: 100%; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
   width: 10px;
@@ -274,7 +287,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
   background: #111;
-  content: "what i provide";
+  content: "what I created";
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
@@ -307,6 +320,8 @@ section .title::after {
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
+
+
 
 /* skills section styling */
 
@@ -690,3 +705,13 @@ footer span a:hover {
     line-height: 38px;
   }
 }
+
+.fisrthead {
+ 
+  font-weight: 900;
+}
+.project {
+ 
+  color: #fff;
+}
+
